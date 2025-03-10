@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RxCross2 } from 'react-icons/rx';
 
-const Home = () => {
+const Index = () => {
 
     const [showSignUp, setShowSignUp] = useState(false);
     const [showSignIn, setShowSignIn] = useState(false);
@@ -114,4 +114,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Index;
